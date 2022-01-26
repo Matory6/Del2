@@ -6,9 +6,9 @@ import (
 )
 
 func main(){
-	fmt.Println(GetHello())
-	fmt.Println(GetGlass())
-	fmt.Println(GetOpt())
-	fmt.Println(GetGo())
+    fmt.Println(quote.GetGlass())
+    fmt.Println(quote.GetHello())
+    fmt.Println(quote.GetOpt())
+    fmt.Println(quote.GetGo())
 }
 
